@@ -755,6 +755,7 @@ nav {
     max-width: 120rem;
   }
 
+  /* for constant spacting */
   .section__discoveries,
   .footer__grid,
   .news__blog-container,
@@ -765,6 +766,10 @@ nav {
   .pathshala__container {
     padding-left: 5rem !important;
     padding-right: 5rem !important;
+  }
+
+  .institute__detail-container {
+    grid-column: 1/5;
   }
 }
 
