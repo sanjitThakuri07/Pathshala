@@ -763,7 +763,9 @@ nav {
   .pathsala__values-container,
   .pathsala__values-container,
   .alert__message,
-  .pathshala__container {
+  .pathshala__container,
+  .intro__events,
+  .intro__events .main__news-heading {
     padding-left: 5rem !important;
     padding-right: 5rem !important;
   }
@@ -1179,7 +1181,9 @@ nav {
   .pathsala__values-container,
   .pathsala__values-container,
   .alert__message,
-  .pathshala__container {
+  .pathshala__container,
+  .intro__events,
+  .intro__events .main__news-heading {
     padding-left: 3rem !important;
     padding-right: 3rem !important;
   }
@@ -1229,6 +1233,11 @@ nav {
 
   .quick__links {
     flex-wrap: wrap;
+  }
+
+  /* of event page */
+  .intro__events .main__news-heading::after {
+    left: 3rem !important;
   }
 }
 

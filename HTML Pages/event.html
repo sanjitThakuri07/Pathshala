@@ -5,11 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="../css/aboutUs.css" />
+    <link rel="stylesheet" href="../css/event.css" />
   </head>
   <body>
+    <!-- header -->
     <section class="header">
       <!-- top header -->
       <header class="top__header">
@@ -92,7 +100,7 @@
               <a href="" class="nav__list-link">Gallery</a>
               <div class="desktop__logo">
                 <a href="">
-                  <img src="./img/logo.png" alt="" />
+                  <img src="../img/logo.png" alt="" />
                 </a>
               </div>
               <a href="" class="nav__list-link">Pathsala Life</a>
@@ -103,291 +111,176 @@
         </div>
       </nav>
     </section>
-    <!-- cover homescreen -->
-    <section class="homescreen except__homescreen">
-      <img src="../img/homeScreen.png" alt="" />
-      <div class="imageOverlay"></div>
-      <div class="text__description">
-        <div class="section__headline">
-          <h3 class="section__indicator">About Us</h3>
-        </div>
-        <p class="section__text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi in
-          sequi dolores porro iure quae praesentium necessitatibus tempore velit
-          libero?
-        </p>
-      </div>
-    </section>
-    <!-- alert message -->
-    <div class="alert__message-container">
-      <div class="alert__message constant__width">
-        <h3 class="alert__text normal__heading">
-          ADMISSION OPEN FOR 2078 BATCH, Apply now
-        </h3>
-        <a href="" class="btn-primary">Prospectus</a>
-      </div>
-    </div>
 
-    <!-- pathshala values -->
-    <section class="constant__width pathsala__values-container">
-      <h3 class="normal__heading">PATHSHALA VALUES</h3>
-      <div class="pathsala__values-grid">
-        <div class="grid__card">
-          <div class="card__image">
-            <svg
-              width="100"
-              height="90"
-              viewBox="0 0 100 90"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M89.5317 67.6667C92.2186 67.6667 94.4837 68.5334 96.327 70.2668C98.1702 72.0001 99.0763 74.0223 99.045 76.3334L61.4136 89.3334L28.6091 80.6667V41.6667H37.7475L71.8173 53.3234C74.2542 54.219 75.4727 55.8367 75.4727 58.1767C75.4727 59.5345 74.9415 60.719 73.8793 61.7301C72.8171 62.7412 71.4736 63.2756 69.849 63.3334H56.7272L48.5261 60.4301L46.9796 64.5034L56.7272 67.6667H89.5317ZM0.416016 41.6667H19.2364V89.3334H0.416016V41.6667Z"
-                fill="#F68635"
-              />
-              <path
-                d="M85.7922 1.4925C85.0577 1.11458 84.2499 0.874243 83.4149 0.78524C82.5799 0.696237 81.7341 0.76031 80.9258 0.973795C80.1176 1.18728 79.3628 1.54599 78.7047 2.02941C78.0465 2.51283 77.4978 3.11148 77.09 3.79112L65.2109 23.5587L58.4123 17.2722C57.822 16.7071 57.116 16.2564 56.3353 15.9463C55.5547 15.6362 54.715 15.473 53.8654 15.4662C53.0158 15.4594 52.1732 15.6091 51.3868 15.9066C50.6005 16.204 49.8861 16.6434 49.2853 17.1989C48.6845 17.7544 48.2094 18.415 47.8876 19.1422C47.5659 19.8693 47.404 20.6484 47.4114 21.434C47.4188 22.2196 47.5953 22.996 47.9306 23.7179C48.266 24.4397 48.7534 25.0926 49.3646 25.6384L62.1619 37.4717C63.3713 38.593 65.0029 39.2083 66.6858 39.2083L67.572 39.1491C68.5528 39.0223 69.4883 38.6866 70.3049 38.1687C71.1216 37.6507 71.7971 36.9645 72.2782 36.1642L88.2749 9.53916C88.6833 8.86008 88.9431 8.11327 89.0394 7.34136C89.1356 6.56945 89.0665 5.78757 88.836 5.04036C88.6054 4.29315 88.218 3.59524 87.6957 2.9865C87.1735 2.37775 86.5267 1.87009 85.7922 1.4925Z"
-                fill="#F68635"
-              />
-            </svg>
-          </div>
-          <div class="content">
-            <h3 class="tertiary__heading">Values</h3>
-            <p>
-              Pathshala focus on promoting human values by incorporating
-              relevant teaching-learning process.
-            </p>
-          </div>
-        </div>
-        <div class="grid__card">
-          <div class="card__image">
-            <svg
-              width="83"
-              height="87"
-              viewBox="0 0 83 87"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M80.4919 59.931C78.1631 57.6223 74.2373 57.4962 71.7407 59.6493L71.003 60.2855L63.983 56.0447L64.4706 46.2318C64.831 38.9765 64.4474 36.6606 61.7338 29.712C59.6336 24.3342 56.7688 17.6146 54.467 12.2152C52.8194 8.35079 51.3966 5.01334 50.9401 3.75993C50.9381 3.75449 50.9363 3.74922 50.9341 3.74361C49.7337 0.554174 46.5803 -0.461165 44.0861 0.184743C43.1374 0.430294 42.2209 0.939918 41.5 1.68931C40.779 0.939918 39.8627 0.430294 38.9139 0.184743C36.4194 -0.460825 33.2663 0.554004 32.0657 3.74344C32.0637 3.74888 32.0617 3.75415 32.0597 3.75976C31.6941 4.76337 30.6957 7.13238 29.6711 9.54251C29.2999 10.4161 29.7647 11.4024 30.7093 11.7457C31.6546 12.0896 32.7207 11.659 33.0919 10.7859C34.2925 7.96113 35.1686 5.87047 35.5398 4.85309C36.0202 3.58728 37.0817 3.23994 37.923 3.45762C38.7998 3.68465 39.5882 4.5688 39.1758 6.3699L34.8836 23.4374C33.9643 24.0565 33.0697 25.0814 32.3306 26.7203C30.2023 31.44 28.4127 36.4737 27.4206 40.53C27.1968 41.4456 27.818 42.3552 28.8078 42.5624C29.7976 42.7693 30.7817 42.1951 31.0055 41.2797C31.9529 37.4054 33.6723 32.5757 35.7229 28.0285C36.6838 25.8977 37.5128 25.9672 37.8249 25.9929C38.8224 26.0758 39.5612 26.8996 39.4717 27.8291C39.3875 28.7041 39.0196 31.8927 38.6636 34.9765C38.2896 38.216 37.9364 41.276 37.8495 42.1805C37.6354 44.4046 38.0581 47.1032 38.5056 49.9603C39.8027 58.2424 41.4065 68.4896 29.4488 75.3368L14.7646 62.6732L21.9054 58.3591C22.4499 58.03 22.7658 57.4594 22.736 56.8585L22.2003 46.076C21.8615 39.2557 22.168 37.4078 24.7226 30.8665C25.3857 29.1684 26.157 27.2546 27.0805 25.0158C27.4421 24.1389 26.9665 23.1569 26.0183 22.8225C25.07 22.488 24.0081 22.928 23.6463 23.8047C22.7151 26.0625 21.9364 27.9948 21.2657 29.7122C18.552 36.6608 18.1685 38.9766 18.5289 46.232L19.0162 56.0449L11.9962 60.2858L11.2587 59.6498C8.76198 57.4962 4.83636 57.6227 2.50738 59.9315C0.178957 62.2402 0.315686 65.8703 2.81245 68.0235L23.0361 85.4645C24.2276 86.4921 25.7439 87.0004 27.2573 87.0004C28.9155 87.0004 30.5698 86.3898 31.7873 85.1828C32.9153 84.0645 33.5049 82.6068 33.4473 81.0784C33.4014 79.8612 32.9484 78.7159 32.1552 77.7729C36.7185 75.0039 39.8036 71.5832 41.4994 67.4056C43.1953 71.5834 46.2802 75.0039 50.8435 77.7729C50.0505 78.7159 49.5973 79.8612 49.5515 81.0784C49.494 82.6068 50.0836 84.0645 51.2116 85.183C52.4293 86.3901 54.0832 87.0004 55.7416 87.0004C57.2548 87.0004 58.7715 86.4919 59.9628 85.4645L80.1864 68.0235C82.6838 65.8699 82.8205 62.2399 80.4919 59.931ZM29.1 82.8642C28.1535 83.8028 26.558 83.8538 25.5436 82.9788L5.31987 65.5376C4.30525 64.6627 4.24975 63.1874 5.19601 62.2492C5.69073 61.7585 6.36298 61.5105 7.03707 61.5105C7.65198 61.5105 8.26836 61.7172 8.75242 62.1347L28.9761 79.5759C29.4677 79.9997 29.7513 80.5753 29.7746 81.1962C29.7979 81.8175 29.5585 82.4098 29.1 82.8642ZM38.8413 22.7054L41.5 12.1338L44.1587 22.7054C43.1295 22.9142 42.2178 23.3888 41.5 24.0407C40.7824 23.3888 39.8705 22.9142 38.8413 22.7054ZM41.5 42.6225C41.5454 43.1897 41.5412 43.8086 41.5 44.4748C41.459 43.8086 41.4546 43.1897 41.5 42.6225ZM44.4942 49.9601C44.9417 47.1031 45.3644 44.4044 45.1503 42.1803C45.0632 41.2758 44.71 38.2159 44.3362 34.9761C43.9802 31.8925 43.6123 28.704 43.5281 27.8288C43.4386 26.8993 44.1774 26.0756 45.1749 25.9925C45.4875 25.967 46.3162 25.8974 47.277 28.0281C49.3275 32.5755 51.0469 37.4053 51.9943 41.2794C52.2181 42.1948 53.202 42.7688 54.192 42.562C55.182 42.3549 55.803 41.4452 55.5792 40.5296C54.5872 36.4734 52.7976 31.4398 50.6691 26.72C49.9299 25.0807 49.0355 24.056 48.1161 23.4369L43.824 6.3699C43.4118 4.5688 44.2 3.68465 45.0768 3.45762C45.9181 3.23994 46.98 3.58762 47.4602 4.8536C47.9492 6.19419 49.317 9.40232 51.0477 13.4615C53.3408 18.8403 56.1946 25.5344 58.2768 30.8662C60.8315 37.4075 61.1378 39.2553 60.7989 46.0757L60.2632 56.8581C60.2335 57.459 60.5494 58.0298 61.0939 58.3588L68.2346 62.6729L53.5507 75.3365C41.5934 68.4894 43.1972 58.2421 44.4942 49.9601ZM77.6801 65.5376L57.4564 82.9789C56.4418 83.8537 54.8465 83.8024 53.9 82.8644C53.4415 82.4099 53.202 81.8175 53.2254 81.1964C53.2487 80.5753 53.5323 79.9999 54.0239 79.5761L74.2476 62.1347C74.7316 61.7172 75.348 61.5105 75.9629 61.5105C76.6368 61.5105 77.3091 61.7588 77.8038 62.2492C78.7502 63.1874 78.6947 64.6627 77.6801 65.5376Z"
-                fill="#F68635"
-              />
-            </svg>
-          </div>
-          <div class="content">
-            <h3 class="tertiary__heading">Culture</h3>
-            <p>
-              In Pathshala students learn the values of culture by active
-              participation in various cultural activities.
-            </p>
-          </div>
-        </div>
-        <div class="grid__card">
-          <div class="card__image">
-            <svg
-              width="84"
-              height="88"
-              viewBox="0 0 84 88"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M13.3944 53.9399L0.999734 73.9415C0.440031 74.8445 0.519356 75.9727 1.20081 76.7999C1.88227 77.6272 3.03119 77.9903 4.11241 77.7207L16.5653 74.612L19.8962 86.0944C20.1877 87.099 21.0987 87.8419 22.2061 87.9778C23.3181 88.114 24.4019 87.6129 24.9607 86.7163L37.3026 66.9123C38.852 67.1031 40.432 67.2031 42.0368 67.2031C43.6416 67.2031 45.2216 67.1031 46.7714 66.9125L59.1133 86.7164C59.6718 87.6128 60.7556 88.1143 61.8679 87.978C62.9751 87.8419 63.8862 87.0992 64.1777 86.0946L67.5086 74.6121L79.9615 77.7208C81.0429 77.9905 82.1917 77.6273 82.8731 76.8001C83.5544 75.9729 83.6339 74.8447 83.0742 73.9417L70.6796 53.9399C75.2764 48.3099 78.0098 41.2911 78.0098 33.6875C78.0098 15.1121 61.8725 0 42.0368 0C22.2011 0 6.06381 15.1121 6.06381 33.6875C6.06381 40.8399 8.50222 47.9485 13.3944 53.9399ZM39.2696 23.375V15.4688H42.0368C43.5626 15.4688 44.8039 16.6253 44.8039 18.0469V28.5312C44.8039 29.9551 46.0429 31.1094 47.5711 31.1094H55.8725V44C55.8725 45.4216 54.6312 46.5781 53.1054 46.5781H33.7353V30.6659C36.9561 29.6017 39.2696 26.736 39.2696 23.375ZM28.201 46.5781H14.9283C12.7998 42.7084 11.5981 38.3262 11.5981 33.6875C11.5981 32.8183 11.6422 31.959 11.7237 31.1094H28.201V46.5781ZM23.507 78.7798L21.1874 70.7833C20.7893 69.4107 19.2736 68.5975 17.7999 68.9657L9.13276 71.1294L17.2802 57.9813C21.2946 61.5342 26.186 64.2333 31.6162 65.7673L23.507 78.7798ZM66.2739 68.9657C64.7996 68.5974 63.2846 69.4109 62.8864 70.7833L60.5667 78.7798L52.4575 65.7675C57.8878 64.2335 62.7792 61.5343 66.7936 57.9815L74.941 71.1296L66.2739 68.9657ZM42.0368 5.15625C58.8207 5.15625 72.4755 17.9553 72.4755 33.6875C72.4755 49.3249 58.8207 62.0469 42.0368 62.0469C32.6049 62.0469 24.1615 58.0291 18.5739 51.7344H53.1054C57.6828 51.7344 61.4069 48.2647 61.4069 44V28.5312C61.4069 27.1074 60.1679 25.9531 58.6397 25.9531H50.3382V18.0469C50.3382 13.7821 46.6142 10.3125 42.0368 10.3125H36.5025C34.9743 10.3125 33.7353 11.4668 33.7353 12.8906V23.375C33.7353 24.7966 32.494 25.9531 30.9682 25.9531H12.7352C16.3412 13.9669 28.1116 5.15625 42.0368 5.15625Z"
-                fill="#F68635"
-              />
-            </svg>
-          </div>
-          <div class="content">
-            <h3 class="tertiary__heading">Meaningful Life</h3>
-            <p>
-              In Pathshala students learn the values of culture by active
-              participation in various cultural activities.
-            </p>
-          </div>
-        </div>
+    <!-- section intro events -->
+    <section class="constant__width intro__events">
+      <div class="events">
+        <h3 class="section__indicator event__text-show">PATHSHALA EVENTS</h3>
       </div>
-      <!-- gallery with information -->
-      <div class="image__information-grid">
-        <div class="image__content-item image__content-item-1">
-          <img src="../img/Rectangle 340.png" alt="" />
-        </div>
-        <div class="image__information-item image__information-item-1">
-          <h3 class="tertiary__heading">Practical Learning Experience</h3>
-          <p class="secondary__heading">
-            Pathshala believes that the process of learning should be enjoyable,
-            active, meaningful...
-          </p>
-          <a href="" class="btn btn__read-more">Read More</a>
-        </div>
-        <div class="image__content-item image__content-item-2">
-          <img src="../img/Rectangle 342.png" alt="" />
-        </div>
-        <div class="image__information-item image__information-item-2">
-          <h3 class="tertiary__heading">Club System</h3>
-          <p class="secondary__heading">
-            Clubs are formed with the objective of promoting overall development
-            of students:...
-          </p>
-          <a href="" class="btn btn__read-more">Read More</a>
-        </div>
-        <div class="image__information-item image__information-item-3">
-          <a href="" class="normal__heading btn__values"
-            >PATHSHALA <span>CORE</span> VALUES</a
-          >
-        </div>
-        <div class="image__information-item image__information-item-4">
-          <h3 class="tertiary__heading">Recognition of ability and interest</h3>
-          <p class="secondary__heading">
-            Pathshala believes that every individual child has many
-            possibilities. Educating him/her is...
-          </p>
-          <a href="" class="btn btn__read-more">Read More</a>
-        </div>
-        <div class="image__content-item image__content-item-3">
-          <img src="../img/Rectangle 346.png" alt="" />
-        </div>
-        <div class="image__information-item image__information-item-5">
-          <h3 class="tertiary__heading">Practical Learning Experience</h3>
-          <p class="secondary__heading">
-            Pathshala believes that the process of learning should be enjoyable,
-            active, meaningful...
-          </p>
-          <a href="" class="btn btn__read-more">Read More</a>
-        </div>
-        <div class="image__content-item image__content-item-4">
-          <img src="../img/Rectangle 348.png" alt="" />
+      <div class="news__blog-content">
+        <!-- image -->
+        <div class="news__highlight">
+          <div class="news__highlight-image">
+            <img src="../img/dance.png" alt="" />
+            <div class="imageOverlay"></div>
+          </div>
+          <a href="" class="main__news-heading section__heading">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum,
+            accusamus.
+          </a>
         </div>
       </div>
     </section>
 
-    <!-- More About Pathshala -->
-    <section class="constant__width pathsala__values-container">
-      <h3 class="normal__heading">MORE ABOUT PATHSHALA</h3>
-      <div class="card__container-grid">
-        <!-- card -->
-        <div class="individual__card">
-          <div class="image__container">
-            <img src="../img/Rectangle 11.png" alt="" />
-            <div class="card__title">
-              <p>About Pathshala</p>
+    <!-- section news and add -->
+    <section class="news__blog-container event__pagination">
+      <div class="news__blog constant__width">
+        <div class="news__blog-content">
+          <!-- image -->
+          <div class="news__add">
+            <div class="add__cover">
+              <img src="../img/add.jpg" class="add__cover-img" alt="" />
+              <div class="text__add">
+                <a href="#" class="text__add-link">
+                  <img src="../img/add__logo.png" alt="" />
+                </a>
+                <a class="text__add-info">
+                  <span>Pathshala Nepal Foundation</span>
+                  <span>8.6k Likes</span>
+                </a>
+              </div>
+              <div class="shade"></div>
+              <!-- facebook -->
+              <a href="#" class="facebook__link">
+                <span> <i class="fab fa-facebook-square"></i> </span>
+                <span> Like Page </span>
+              </a>
+            </div>
+            <div class="add__slideshow">
+              <div class="add-content">
+                <a href="" class="add__show">
+                  <img src="../img/add-cover.jpg" alt="" />
+                </a>
+                <div class="add__cover-info">
+                  <div class="add__cover-head">
+                    <a href="" class="cover__icon">
+                      <img src="../img/add__logo.png" alt="" />
+                    </a>
+                    <p class="text__head">
+                      Pathshala Nepal Foundation
+                      <span>about 3 weeks ago</span>
+                    </p>
+                    <a href="" class="facebook__cover">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                  </div>
+                  <!-- body -->
+                  <div class="add__cover-body">
+                    <p>
+                      जनै पूर्णिमा तथा रक्षा बन्धनको सम्पूर्णमा शुभकामना !!
+                      <span class="cover__body-date"> ६ भदौ २०७८, आइतवार </span>
+                    </p>
+                    <ul class="hastag">
+                      <li class="hastag__element">
+                        <a href="">AIMMATTERS</a>
+                      </li>
+                      <li class="hastag__element">
+                        <a href="">AIMMATTERS</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- footer -->
+                  <ul class="add__cover-footer">
+                    <li class="add__cover-item">
+                      <a href="">
+                        <span class="icon__footer">
+                          <i class="fas fa-thumbs-up"></i>
+                        </span>
+                        <span class="numbers">73</span></a
+                      >
+                    </li>
+                    <li class="add__cover-item">
+                      <a href="">
+                        <span class="icon__footer">
+                          <i class="fas fa-comment-alt"></i>
+                        </span>
+                        <span class="numbers">73</span></a
+                      >
+                    </li>
+                    <li class="add__cover-item">
+                      <a href="">
+                        <span class="icon__footer">
+                          <i class="fas fa-share"></i>
+                        </span>
+                        <span class="numbers">73</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-          <!-- card body -->
-          <div class="card__content-body">
-            <h3 class="tertiary__heading">Know More About The PATHSHALA</h3>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Consequuntur eaque repellendus reprehenderit tempora debitis
-              nostrum praesentium natus excepturi ipsam ut.
-            </p>
-            <a href="" class="btn__read-more card-btn">
-              <span>Read More</span>
-              <svg
-                width="15"
-                height="15"
-                viewBox="0 0 22 22"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.6252 0.425537L8.75249 2.24391L16.1635 9.45292H0V12.0322H16.1635L8.75249 19.2412L10.6252 21.0596L21.2504 10.7425L10.6252 0.425537Z"
-                  fill="#00998D"
-                />
-              </svg>
-            </a>
-          </div>
         </div>
-        <!--  -->
-        <div class="individual__card">
-          <div class="image__container">
-            <img src="../img/Rectangle 11.png" alt="" />
-            <div class="card__title">
-              <p>About Pathshala</p>
-            </div>
-          </div>
-          <!-- card body -->
-          <div class="card__content-body">
-            <h3 class="tertiary__heading">Know More About The PATHSHALA</h3>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Consequuntur eaque repellendus reprehenderit tempora debitis
-              nostrum praesentium natus excepturi ipsam ut.
-            </p>
-            <a href="" class="btn__read-more card-btn">
-              <span>Read More</span>
-              <svg
-                width="15"
-                height="15"
-                viewBox="0 0 22 22"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.6252 0.425537L8.75249 2.24391L16.1635 9.45292H0V12.0322H16.1635L8.75249 19.2412L10.6252 21.0596L21.2504 10.7425L10.6252 0.425537Z"
-                  fill="#00998D"
-                />
-              </svg>
-            </a>
-          </div>
-        </div>
-        <!--  -->
-        <div class="individual__card">
-          <div class="image__container">
-            <img src="../img/Rectangle 11.png" alt="" />
-            <div class="card__title">
-              <p>About Pathshala</p>
-            </div>
-          </div>
-          <!-- card body -->
-          <div class="card__content-body">
-            <h3 class="tertiary__heading">Know More About The PATHSHALA</h3>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Consequuntur eaque repellendus reprehenderit tempora debitis
-              nostrum praesentium natus excepturi ipsam ut.
-            </p>
-            <a href="" class="btn__read-more card-btn">
-              <span>Read More</span>
-              <svg
-                width="15"
-                height="15"
-                viewBox="0 0 22 22"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.6252 0.425537L8.75249 2.24391L16.1635 9.45292H0V12.0322H16.1635L8.75249 19.2412L10.6252 21.0596L21.2504 10.7425L10.6252 0.425537Z"
-                  fill="#00998D"
-                />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- life at pathshala -->
-    <section class="pathshala">
-      <div class="pathshala__container constant__width">
-        <div class="pathshala__text-content">
-          <h4 class="normal__heading"><span>Life at</span>Pathshala</h4>
-          <p class="tertiary__heading">
-            Pathshala Nepal brings together children and adults of wide variety
-            of ethnic groups and nationalities in inter-cultural network/harmony
-            while celebrating the diversity of our school population. We also
-            seek to forge among parents, students, teaching and non-teaching
-            staff. This unified and caring community exhibits mutual respect and
-            understanding where each individual feels welcomed and valued. We
-            believe that through consistent application of these principles and
-            ideals; a learning community will be nurtured in which rational,
-            caring and intellectually discerning students will develop.
-          </p>
-          <a href="" class="btn__read-more btn-video">Watch Video</a>
-        </div>
-        <div class="pathshala__video">
-          <div class="video__container">
-            <img src="../img/image 21.png" alt="" />
-          </div>
+        <!-- list -->
+        <div class="news__blog-list event__page">
+          <p class="title-event">All Events</p>
+          <ul>
+            <li class="news__blog-list-item">
+              <div class="blog__text-content">
+                <span class="date">28th may, 2021</span>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum
+                  veniam delectus consectetur, quos voluptate cupiditate.
+                </p>
+              </div>
+              <!--  -->
+              <div class="image__text-content">
+                <div class="image__content">
+                  <img src="../img/add.jpg" alt="" />
+                </div>
+              </div>
+            </li>
+            <li class="news__blog-list-item">
+              <div class="blog__text-content">
+                <span class="date">28th may, 2021</span>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum
+                  veniam delectus consectetur, quos voluptate cupiditate.
+                </p>
+              </div>
+              <!--  -->
+              <div class="image__text-content">
+                <div class="image__content">
+                  <img src="../img/cover.png" alt="" />
+                </div>
+              </div>
+            </li>
+            <li class="news__blog-list-item">
+              <div class="blog__text-content">
+                <span class="date">28th may, 2021</span>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum
+                  veniam delectus consectetur, quos voluptate cupiditate.
+                </p>
+              </div>
+              <!--  -->
+              <div class="image__text-content">
+                <div class="image__content">
+                  <img src="../img/cover.png" alt="" />
+                </div>
+              </div>
+            </li>
+          </ul>
+          <!--  -->
+          <ul class="page__numbers">
+            <li class="page__number-active">
+              <span>1</span>
+            </li>
+            <li><span>2</span></li>
+            <li>
+              <span><i class="fas fa-chevron-right"></i></span>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
