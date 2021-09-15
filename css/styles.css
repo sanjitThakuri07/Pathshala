@@ -481,7 +481,7 @@ nav {
   line-height: 1;
 }
 
-.highlight__text span {
+.highlight__text span:last-child {
   font-size: 2.4rem;
   font-weight: normal;
 }
@@ -524,7 +524,7 @@ nav {
 .features__onhoverShow {
   position: absolute;
   background-color: rgba(0, 153, 140, 0.5);
-  top: 0;
+  top: 100%;
   width: 100%;
   height: 100%;
   border-radius: inherit;
@@ -535,7 +535,6 @@ nav {
   justify-content: center;
   gap: 1.6rem;
   transition: all 0.3s ease-out;
-  opacity: 0;
 }
 
 .content {
@@ -567,7 +566,7 @@ nav {
 }
 
 .features-item:hover .features__onhoverShow {
-  opacity: 1;
+  top: 0%;
 }
 
 /* news blog */
@@ -1083,7 +1082,7 @@ nav {
 @media (max-width: 768px) {
   /* section discoveries */
   .features__onhoverShow {
-    opacity: 1;
+    top: 0;
   }
 
   .section__discoveries .normal__heading {

@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+
+    <script src="./js/counter.js" defer></script>
   </head>
   <body>
     <!-- take navigation from home page -->
@@ -151,7 +153,9 @@
               />
             </svg>
           </div>
-          <h4 class="highlight__text">14+ <span>years</span></h4>
+          <h4 class="highlight__text">
+            <span class="counter" data-target="14">0</span><span>years</span>
+          </h4>
         </div>
         <div class="welcome__highlight-item">
           <div class="welcome__highlight-icon">
@@ -170,7 +174,9 @@
               />
             </svg>
           </div>
-          <h4 class="highlight__text">4+ <span>awards</span></h4>
+          <h4 class="highlight__text">
+            <span class="counter" data-target="4">0</span> <span>awards</span>
+          </h4>
         </div>
         <div class="welcome__highlight-item">
           <div class="welcome__highlight-icon">
@@ -187,7 +193,10 @@
               />
             </svg>
           </div>
-          <h4 class="highlight__text">5000+ <span>Students enrolled</span></h4>
+          <h4 class="highlight__text">
+            <span class="counter" data-target="5000">0</span
+            ><span>Students enrolled</span>
+          </h4>
         </div>
         <div class="welcome__highlight-item">
           <div class="welcome__highlight-icon">
@@ -224,11 +233,16 @@
               />
             </svg>
           </div>
-          <h4 class="highlight__text">200+ <span>people working</span></h4>
+          <h4 class="highlight__text">
+            <span class="counter" data-target="200">0</span
+            ><span>people working</span>
+          </h4>
         </div>
       </div>
       <!-- btn -->
-      <a href="" class="btn-primary">Learn More</a>
+      <a href="" class="btn-primary">
+        <span> Learn More </span>
+      </a>
     </section>
     <!-- features -->
     <section
@@ -417,7 +431,9 @@
       </div>
       <!-- btn -->
       <!-- btn -->
-      <a href="" class="btn-primary">Prospectus</a>
+      <a href="" class="btn-primary">
+        <span>Prospectus</span>
+      </a>
     </section>
     <!-- news blog events -->
     <section class="news__blog-container bottom__section-padding">
