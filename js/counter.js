@@ -1,6 +1,8 @@
 const counters = document.querySelectorAll(".counter");
 const speed = 200; // The lower the slower
 
+const plusIcon = document.querySelector(".plus");
+
 counters.forEach((counter) => {
   const updateCount = () => {
     const target = +counter.getAttribute("data-target");
@@ -19,7 +21,7 @@ counters.forEach((counter) => {
       // Call function every ms
       setTimeout(updateCount, 1);
     } else {
-      counter.innerText = target + "+";
+      counter.innerHTML = target + `<strong class="plus">+</strong>`;
     }
   };
 

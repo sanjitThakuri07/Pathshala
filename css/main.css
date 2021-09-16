@@ -630,3 +630,50 @@ a {
     opacity: 1;
   }
 }
+
+/* hsl(35, 83%, 61%), */
+/* hsl(36, 98%, 47%) */
+/* text color change */
+.highlight__text span:last-child {
+  background-image: linear-gradient(
+    to right,
+    hsl(0, 100%, 50%),
+    /* hsl(10, 50%, 100%) */ hsl(33, 70%, 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: animate-text-color 2s linear infinite;
+  background-size: 300%;
+  text-align: center;
+  background-position: center;
+}
+
+@keyframes animate-text-color {
+  0% {
+    background-position: 0% 100%;
+  }
+  /* 50% {
+    background-position: 1000% 0%;
+  } */
+  100% {
+    background-position: 50% 100%;
+  }
+}
+
+.plus {
+  display: inline-block;
+  animation: zoomInOut 0.8s linear infinite;
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}

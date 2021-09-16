@@ -967,6 +967,8 @@ nav {
   #check:checked,
   #check:checked ~ .hamburger-menu-container {
     /* top: 5rem !important; */
+    position: fixed;
+    top: 12%;
     right: 4%;
   }
 
